@@ -40,8 +40,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'calculate = calculate.calculate:main',
-            'ribodetector_cpu = ribodetector.detect_cpu:main',
+            'HHcalculate = HHcalculate.HHcalculate:main',
+            #'ribodetector_cpu = ribodetector.detect_cpu:main',
         ]
     },
     zip_safe=True,
