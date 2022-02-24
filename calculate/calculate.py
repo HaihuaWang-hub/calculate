@@ -23,3 +23,9 @@ def main():
         return val
 
     print(add_number(number=args.integers))
+    
+    
+    
+    
+if __name__ == '__main__':
+    main()
